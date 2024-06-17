@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.bg-light-blue{
+    background-color: rgb(91, 218, 235);
+}
+
+
+.bt{
+    border-top: rgb(91, 218, 235) solid 25px;
+    border-left: solid rgb(91, 218, 235);
+    border-right: solid rgb(91, 218, 235);
+    border-bottom: solid rgb(91, 218, 235);
+}
+
+.bg-c{
+ background-color: rgb(91, 218, 235); ;
+}
+
+
+.mq{
+    @media screen and (min-width: 360px) {
+        
+      }
+}
+.red-shade{
+    color: #c45500;
+}
+
+.black-shade{
+    color: #0f1111;
+}
+
+.border{
+    border: -1px;
+}
+
+.border-l{
+    border-left: 1px solid grey;
+}
+
+.box-sh{
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+}
